@@ -64,3 +64,70 @@ body{
 .action-btn-cont>*:hover{
     background-color: lightgray;
 }
+.modal-cont{
+    height: 50vh;
+    width: 45vw;
+    background-color: aqua;
+    position: absolute;
+    top:calc((100vh - 50vh)/2);
+    left: calc((100vw - 45vw)/2);
+    display: flex;
+
+}
+.textarea-cont{
+    height: 100%;
+    width: 75%;
+    border: none;
+    outline: none;
+    background-color: lightgray ; 
+    resize: none;
+    padding: 2rem;
+    font-size: 1.5rem;
+    
+     
+}
+.priority-color-cont{
+    height: 100%;
+    width: 25%;  
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.priority-color{
+    height: 3.5rem;
+    width: 60%;
+   
+
+}
+.border{
+    border: 1px solid red;
+}
+.ticket-cont{
+    height: 12rem;
+    width: 16rem;
+    background-color: lightgray;
+}
+.ticket-color{
+    height: 1rem;
+    background-color: lightcoral;
+}
+.ticket-id{
+    height: 2rem;
+    background-color:  lightgray ;
+    padding:0.4rem ;
+}
+.task-area{
+    height: calc((100%-3rem));
+    padding: 0.4rem;
+    
+}
+.main-cont{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+   gap: 2rem;
+   justify-content: center;
+}
